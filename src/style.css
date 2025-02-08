@@ -1,5 +1,41 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: blue;
+    background: rgb(122, 31, 31);
 }
+
+#cardStyle{
+    background-color: aliceblue;
+    height: 45vh;
+    width: 30vh;
+    margin-top: 5vh;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#infoCardNumber{
+    font-size: 15vh;
+    
+}
+
+.top_left_suit{
+    font-size: 10vh;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    margin: 3%;
+}
+
+.bottom_right_suit{
+    font-size: 10vh;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    margin: 3%;
+    transform: rotate(180deg);
+}
+
